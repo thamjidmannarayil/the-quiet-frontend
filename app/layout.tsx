@@ -4,6 +4,7 @@ import './globals.css'
 import { CartProvider } from '@/components/cart-provider'
 import { FavoritesProvider } from '@/components/favorites-provider'
 import { ThemeProvider } from '@/components/theme-provider'
+import { GoogleAuthProvider } from '@/components/google-auth-provider'
 import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,16 +26,18 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider>
-          <CartProvider>
-            <FavoritesProvider>
-              <main className="min-h-screen bg-background font-sans antialiased">
-                {children}
-                <Toaster />
-              </main>
-            </FavoritesProvider>
-          </CartProvider>
-        </ThemeProvider>
+        <GoogleAuthProvider>
+          <ThemeProvider>
+            <CartProvider>
+              <FavoritesProvider>
+                <main className="min-h-screen bg-background font-sans antialiased">
+                  {children}
+                  <Toaster />
+                </main>
+              </FavoritesProvider>
+            </CartProvider>
+          </ThemeProvider>
+        </GoogleAuthProvider>
       </body>
     </html>
   )
