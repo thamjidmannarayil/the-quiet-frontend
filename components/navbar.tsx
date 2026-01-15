@@ -30,7 +30,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 min-w-0">
             <span className="text-2xl font-bold text-primary whitespace-nowrap">
-              Azure Horizon
+              The Quiet
             </span>
           </Link>
 

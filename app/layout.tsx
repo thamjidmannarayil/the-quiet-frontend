@@ -10,8 +10,8 @@ import { Toaster } from '@/components/ui/toaster'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Azure Horizon - A peaceful place to escape stress.',
-  description: 'Discover harmony and elegance at Azure Horizon. From peaceful retreats surrounded by nature to indulgent luxury experiences, every moment is designed to refresh your soul.',
+  title: 'The Quiet - A peaceful place to escape stress.',
+  description: 'Discover harmony and elegance at The Quiet. From peaceful retreats surrounded by nature to indulgent luxury experiences, every moment is designed to refresh your soul.',
   generator: 'v0.app',
   icons: {
     icon: '/favicon.ico',

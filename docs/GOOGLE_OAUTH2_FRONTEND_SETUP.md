@@ -1,6 +1,6 @@
 # Google OAuth2 Frontend Configuration Guide
 
-This guide explains how to set up and use Google OAuth2 for signup and signin in the Azure Horizon Frontend.
+This guide explains how to set up and use Google OAuth2 for signup and signin in The Quiet Frontend.
 
 ## Prerequisites Completed ✅
 

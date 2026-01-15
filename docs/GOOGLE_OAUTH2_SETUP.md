@@ -1,6 +1,6 @@
 # Google OAuth2 Integration Guide
 
-This guide explains how to set up and use Google OAuth2 for signup and signin in the Azure Horizon Backend.
+This guide explains how to set up and use Google OAuth2 for signup and signin in The Quiet Backend.
 
 ## Prerequisites
 

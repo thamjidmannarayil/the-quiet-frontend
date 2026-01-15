@@ -20,14 +20,14 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
               <p className="mb-4">
-                By booking services at Azure Horizon ("we," "our," or "us"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by the above, please do not use our services.
+                By booking services at The Quiet ("we," "our," or "us"), you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to abide by the above, please do not use our services.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">2. Booking and Reservations</h2>
               <p className="mb-4">
-                All bookings are subject to availability and confirmation by Azure Horizon. We reserve the right to refuse service to anyone for any reason at any time.
+                All bookings are subject to availability and confirmation by The Quiet. We reserve the right to refuse service to anyone for any reason at any time.
               </p>
               <ul className="list-disc pl-6 mb-4">
                 <li>Bookings must be made by guests 18 years or older</li>
@@ -86,21 +86,21 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">7. Privacy and Photography</h2>
               <p className="mb-4">
-                Azure Horizon may take photographs or videos of guests for promotional purposes. By staying with us, you consent to such use unless you specifically opt out.
+                The Quiet may take photographs or videos of guests for promotional purposes. By staying with us, you consent to such use unless you specifically opt out.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">8. Force Majeure</h2>
               <p className="mb-4">
-                Azure Horizon shall not be liable for any failure to perform due to unforeseen circumstances or causes beyond our reasonable control, including but not limited to acts of God, natural disasters, war, terrorism, or government regulations.
+                The Quiet shall not be liable for any failure to perform due to unforeseen circumstances or causes beyond our reasonable control, including but not limited to acts of God, natural disasters, war, terrorism, or government regulations.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold mb-4">9. Limitation of Liability</h2>
               <p className="mb-4">
-                Azure Horizon's liability is limited to the amount paid for services. We are not responsible for indirect, incidental, or consequential damages.
+                The Quiet's liability is limited to the amount paid for services. We are not responsible for indirect, incidental, or consequential damages.
               </p>
             </section>
 

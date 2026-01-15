@@ -58,7 +58,7 @@ export default function CancellationPage() {
               <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4">Cancellation Policy Overview</h2>
                 <p className="mb-4">
-                  At Azure Horizon, we understand that travel plans can change. Our flexible cancellation policy is designed to provide you with peace of mind while ensuring fair treatment for all our guests.
+                  At The Quiet, we understand that travel plans can change. Our flexible cancellation policy is designed to provide you with peace of mind while ensuring fair treatment for all our guests.
                 </p>
               </section>
 

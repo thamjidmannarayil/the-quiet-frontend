@@ -2,7 +2,7 @@
 
 ## Overview
 
-Google OAuth2 sign-up and sign-in has been fully configured for the Azure Horizon Frontend application. Users can now authenticate using their Google accounts on both the login and registration pages.
+Google OAuth2 sign-up and sign-in has been fully configured for The Quiet Frontend application. Users can now authenticate using their Google accounts on both the login and registration pages.
 
 ---
 
