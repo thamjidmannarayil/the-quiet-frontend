@@ -16,7 +16,7 @@ export default function ContactPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 dark:bg-black">
         <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4 dark:text-white">Contact Azure Horizon</h1>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4 dark:text-white">Contact The Quiet</h1>
           <p className="text-gray-600 max-w-2xl mx-auto dark:text-gray-400">
             Planning your perfect getaway? Our dedicated concierge team is here to help you create unforgettable memories.
           </p>

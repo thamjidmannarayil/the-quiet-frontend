@@ -154,7 +154,7 @@ export default function MyBookingsPage() {
         <div className="flex justify-between items-center mb-8">
           <div>
             <h1 className="text-3xl font-bold text-gray-900 dark:text-white">My Bookings</h1>
-            <p className="text-gray-600 dark:text-gray-400 mt-2">Manage your Azure Horizon reservations</p>
+            <p className="text-gray-600 dark:text-gray-400 mt-2">Manage your The Quiet reservations</p>
           </div>
           <Link href="/services">
             <Button>Book New Service</Button>

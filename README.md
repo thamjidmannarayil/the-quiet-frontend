@@ -1,6 +1,6 @@
-# Azure Horizon Resort - Frontend
+# The Quiet Resort - Frontend
 
-Discover harmony and elegance at Azure Horizon. From peaceful retreats surrounded by nature to indulgent luxury experiences, every moment is designed to refresh your soul.
+Discover harmony and elegance at The Quiet. From peaceful retreats surrounded by nature to indulgent luxury experiences, every moment is designed to refresh your soul.
 
 ## 🚀 Quick Start (Full Stack)
 

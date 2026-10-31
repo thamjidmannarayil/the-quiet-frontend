@@ -4,13 +4,14 @@ import './globals.css'
 import { CartProvider } from '@/components/cart-provider'
 import { FavoritesProvider } from '@/components/favorites-provider'
 import { ThemeProvider } from '@/components/theme-provider'
+import { GoogleAuthProvider } from '@/components/google-auth-provider'
 import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Azure Horizon - A peaceful place to escape stress.',
-  description: 'Discover harmony and elegance at Azure Horizon. From peaceful retreats surrounded by nature to indulgent luxury experiences, every moment is designed to refresh your soul.',
+  title: 'The Quiet - A peaceful place to escape stress.',
+  description: 'Discover harmony and elegance at The Quiet. From peaceful retreats surrounded by nature to indulgent luxury experiences, every moment is designed to refresh your soul.',
   generator: 'v0.app',
   icons: {
     icon: '/favicon.ico',
@@ -25,16 +26,18 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider>
-          <CartProvider>
-            <FavoritesProvider>
-              <main className="min-h-screen bg-background font-sans antialiased">
-                {children}
-                <Toaster />
-              </main>
-            </FavoritesProvider>
-          </CartProvider>
-        </ThemeProvider>
+        <GoogleAuthProvider>
+          <ThemeProvider>
+            <CartProvider>
+              <FavoritesProvider>
+                <main className="min-h-screen bg-background font-sans antialiased">
+                  {children}
+                  <Toaster />
+                </main>
+              </FavoritesProvider>
+            </CartProvider>
+          </ThemeProvider>
+        </GoogleAuthProvider>
       </body>
     </html>
   )

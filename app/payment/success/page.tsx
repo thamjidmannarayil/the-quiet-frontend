@@ -188,7 +188,7 @@ function PaymentSuccessContent() {
 
             <div className="space-y-4">
               <p className="text-gray-600">
-                We're excited to welcome you to Azure Horizon! Please arrive 15 minutes before your scheduled services.
+                We're excited to welcome you to The Quiet! Please arrive 15 minutes before your scheduled services.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -13,12 +13,12 @@ export function RegisterView({ onNavigate }: RegisterViewProps) {
   return (
     <AuthShell
       title="Create your account"
-      subtitle="Sign up to get started with Azure Horizon"
+      subtitle="Sign up to get started with The Quiet"
       illustration={
         <AuthIllustration>
           <div className="mt-8 text-center">
             <h3 className="text-2xl font-bold text-teal-700 dark:text-teal-300 mb-2">
-              Welcome to Azure Horizon
+              Welcome to The Quiet
             </h3>
             <p className="text-gray-600 dark:text-gray-300">
               Create your account and join our vibrant community!

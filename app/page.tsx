@@ -56,7 +56,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="/hero.jpg"
-            alt="Azure Horizon"
+            alt="The Quiet"
             fill
             className="object-cover"
             priority
@@ -71,7 +71,7 @@ export default function HomePage() {
               Beyond rest, into peace.
             </h1>
             <p className="text-xl mb-8 text-white/95 drop-shadow-md">
-              Discover harmony and elegance at Azure Horizon.
+              Discover harmony and elegance at The Quiet.
               From peaceful retreats surrounded by nature to indulgent luxury experiences,
               every moment is designed to refresh your soul.
             </p>

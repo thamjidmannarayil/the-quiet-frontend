@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { useToast } from "@/components/ui/use-toast"
+import { GoogleSignInButton } from "@/components/google-signin-button"
 
 interface RegisterFormProps {
   onLogin: () => void
@@ -113,6 +114,17 @@ export default function RegisterForm({ onLogin }: RegisterFormProps) {
       >
         {loading ? "Registering..." : "Register"}
       </Button>
+      <div className="flex items-center gap-2 my-2">
+        <div className="flex-1 h-px bg-gray-200" />
+        <span className="text-xs text-gray-400">or</span>
+        <div className="flex-1 h-px bg-gray-200" />
+      </div>
+      <div className="w-full flex justify-center">
+        <GoogleSignInButton 
+          mode="signup" 
+          onSuccess={onLogin}
+        />
+      </div>
       <div className="text-center text-sm mt-6">
         Already have an account? <button type="button" className="text-teal-600 hover:underline" onClick={onLogin}>Login</button>
       </div>

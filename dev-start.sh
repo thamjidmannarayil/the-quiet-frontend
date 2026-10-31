@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Azure Horizon Resort - Full Stack Development Setup Script
+# The Quiet Resort - Full Stack Development Setup Script
 # This script helps you start both the Django backend and Next.js frontend
 
-echo "🚀 Starting Azure Horizon Resort Development Environment"
+echo "🚀 Starting The Quiet Resort Development Environment"
 echo "================================================="
 
 # Colors for output
